@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <rect width="1200" height="600" fill="#0a0c13"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="#1e2130" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <!-- NAS100 - pullback to support, then resume -->
+  <path d="M0,180 L60,170 L120,155 L180,165 L240,150 L300,140 L360,125 L420,135 L480,340 L540,380 L600,360 L660,340 L720,320 L780,300 L840,280 L900,260 L960,240 L1020,220 L1080,205 L1140,190 L1200,175 L1200,600 L0,600 Z"
+    fill="rgba(16,212,142,0.07)"/>
+  <polyline points="0,180 60,170 120,155 180,165 240,150 300,140 360,125 420,135 480,340 540,380 600,360 660,340 720,320 780,300 840,280 900,260 960,240 1020,220 1080,205 1140,190 1200,175"
+    fill="none" stroke="#10d48e" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 21 EMA line -->
+  <polyline points="0,300 100,290 200,280 300,265 400,255 480,320 560,370 640,350 720,330 800,305 900,270 1000,245 1100,220 1200,200"
+    fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.7"/>
+  <text x="1080" y="200" fill="#6366f1" font-family="monospace" font-size="10" opacity="0.7">21 EMA</text>
+  <!-- Support zone -->
+  <rect x="440" y="320" width="220" height="80" fill="rgba(16,212,142,0.06)" stroke="rgba(16,212,142,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="448" y="415" fill="#10d48e" font-family="monospace" font-size="10" opacity="0.7">Support  17,250</text>
+  <!-- Candle bodies -->
+  <rect x="18" y="170" width="22" height="18" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="68" y="162" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="118" y="150" width="22" height="14" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="168" y="157" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="218" y="143" width="22" height="16" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="268" y="133" width="22" height="16" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="318" y="120" width="22" height="14" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="368" y="130" width="22" height="14" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="418" y="250" width="22" height="70" fill="#f04f5e" opacity="0.9" rx="1"/>
+  <rect x="468" y="345" width="22" height="45" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="518" y="355" width="22" height="30" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="568" y="342" width="22" height="24" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="618" y="325" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="668" y="305" width="22" height="24" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="718" y="285" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="768" y="265" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="818" y="245" width="22" height="20" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="868" y="228" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="918" y="212" width="22" height="18" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="968" y="197" width="22" height="16" fill="#10d48e" opacity="0.8" rx="1"/>
+  <text x="16" y="22" fill="#4a5568" font-family="monospace" font-size="11">NAS100  D1</text>
+  <text x="1080" y="173" fill="#10d48e" font-family="monospace" font-size="11">17,800</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <rect width="1200" height="600" fill="#0a0c13"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="#1e2130" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <!-- Gold area chart - strong uptrend with pullback -->
+  <path d="M0,480 L60,465 L120,470 L180,455 L240,440 L300,460 L360,445 L420,428 L480,415 L540,410 L600,430 L660,415 L720,395 L780,375 L840,355 L900,340 L960,310 L1020,290 L1080,270 L1140,255 L1200,240 L1200,600 L0,600 Z"
+    fill="rgba(251,191,36,0.08)"/>
+  <polyline points="0,480 60,465 120,470 180,455 240,440 300,460 360,445 420,428 480,415 540,410 600,430 660,415 720,395 780,375 840,355 900,340 960,310 1020,290 1080,270 1140,255 1200,240"
+    fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Order block zone -->
+  <rect x="0" y="450" width="1200" height="40" fill="rgba(251,191,36,0.05)" stroke="rgba(251,191,36,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="10" y="475" fill="#f59e0b" font-family="monospace" font-size="10" opacity="0.7">Order Block Zone  2008–2018</text>
+  <!-- Candle bodies (gold) -->
+  <rect x="20" y="462" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="70" y="458" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="120" y="465" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="170" y="448" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="220" y="438" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="270" y="452" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="320" y="440" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="370" y="422" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="420" y="412" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="470" y="408" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="520" y="422" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="570" y="408" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="620" y="392" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="670" y="372" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="720" y="348" width="22" height="24" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="770" y="335" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="820" y="305" width="22" height="22" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="870" y="285" width="22" height="20" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="920" y="265" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="970" y="250" width="22" height="18" fill="#10d48e" opacity="0.8" rx="1"/>
+  <text x="16" y="22" fill="#4a5568" font-family="monospace" font-size="11">XAU/USD  D1</text>
+  <text x="1040" y="238" fill="#f59e0b" font-family="monospace" font-size="11">2042.00</text>
+</svg>

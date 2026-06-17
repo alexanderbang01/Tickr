@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keyframes must be defined globally so custom CSS classes can reference them */
+@keyframes tickerScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  :root {
+    --bg: #080a10;
+    --surface: #0f1117;
+    --surface-2: #13151f;
+    --surface-3: #181b28;
+    --border: #1e2130;
+    --border-hover: #2d3148;
+    --text: #eef0f6;
+    --text-2: #8892a4;
+    --text-3: #4a5568;
+  }
+
+  html.light {
+    --bg: #f4f6fa;
+    --surface: #ffffff;
+    --surface-2: #f0f2f8;
+    --surface-3: #e8ecf4;
+    --border: #dde2ef;
+    --border-hover: #c8cfdf;
+    --text: #0f1117;
+    --text-2: #4a5568;
+    --text-3: #8892a4;
+    color-scheme: light;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "rlig" 1, "calt" 1, "tnum" 1;
+  }
+
+  ::selection {
+    background: rgba(99, 102, 241, 0.3);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--border-hover);
+  }
+}
+
+@layer utilities {
+  .bg-app { background-color: var(--bg); }
+  .bg-surface { background-color: var(--surface); }
+  .bg-surface-2 { background-color: var(--surface-2); }
+  .bg-surface-3 { background-color: var(--surface-3); }
+
+  .border-app { border-color: var(--border); }
+  .border-hover { border-color: var(--border-hover); }
+
+  .text-app { color: var(--text); }
+  .text-secondary { color: var(--text-2); }
+  .text-muted { color: var(--text-3); }
+
+  .card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .card-hover {
+    transition: border-color 150ms ease, background-color 150ms ease;
+  }
+  .card-hover:hover {
+    border-color: var(--border-hover);
+    background-color: var(--surface-2);
+  }
+
+  .glass {
+    background: rgba(15, 17, 23, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  html.light .glass {
+    background: rgba(255, 255, 255, 0.88);
+  }
+
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      var(--surface) 0%,
+      var(--surface-2) 50%,
+      var(--surface) 100%
+    );
+    background-size: 400px 100%;
+    animation: shimmer 2.2s ease-in-out infinite;
+  }
+
+  .buy-glow {
+    box-shadow: 0 0 0 1px rgba(16, 212, 142, 0.2),
+                inset 0 1px 0 rgba(16, 212, 142, 0.05);
+  }
+  .sell-glow {
+    box-shadow: 0 0 0 1px rgba(240, 79, 94, 0.2),
+                inset 0 1px 0 rgba(240, 79, 94, 0.05);
+  }
+}

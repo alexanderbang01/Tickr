@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <rect width="1200" height="600" fill="#0a0c13"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#1e2130" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="#1e2130" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="600" stroke="#1e2130" stroke-width="1"/>
+  <!-- BTC bearish distribution - toppy, then declining -->
+  <path d="M0,220 L60,210 L120,200 L180,195 L240,190 L300,200 L360,192 L420,188 L480,195 L540,210 L600,225 L660,240 L720,260 L780,280 L840,300 L900,325 L960,350 L1020,370 L1080,390 L1140,415 L1200,440 L1200,600 L0,600 Z"
+    fill="rgba(240,79,94,0.07)"/>
+  <polyline points="0,220 60,210 120,200 180,195 240,190 300,200 360,192 420,188 480,195 540,210 600,225 660,240 720,260 780,280 840,300 900,325 960,350 1020,370 1080,390 1140,415 1200,440"
+    fill="none" stroke="#f04f5e" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Distribution zone at top -->
+  <rect x="0" y="180" width="520" height="30" fill="rgba(240,79,94,0.06)" stroke="rgba(240,79,94,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="10" y="200" fill="#f04f5e" font-family="monospace" font-size="10" opacity="0.7">Distribution Zone  43,200–43,800</text>
+  <!-- Candles (bearish pattern) -->
+  <rect x="20" y="210" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="70" y="200" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="120" y="193" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="170" y="190" width="22" height="14" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="220" y="186" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="270" y="193" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="320" y="186" width="22" height="14" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="370" y="184" width="22" height="16" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="420" y="191" width="22" height="14" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="470" y="205" width="22" height="18" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="520" y="220" width="22" height="20" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="570" y="235" width="22" height="22" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="620" y="252" width="22" height="22" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="670" y="272" width="22" height="24" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="720" y="292" width="22" height="24" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="770" y="316" width="22" height="22" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="820" y="340" width="22" height="20" fill="#10d48e" opacity="0.8" rx="1"/>
+  <rect x="870" y="358" width="22" height="22" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="920" y="378" width="22" height="22" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <rect x="970" y="400" width="22" height="24" fill="#f04f5e" opacity="0.8" rx="1"/>
+  <text x="16" y="22" fill="#4a5568" font-family="monospace" font-size="11">BTC/USD  H4</text>
+  <text x="1050" y="438" fill="#f04f5e" font-family="monospace" font-size="11">40,000</text>
+</svg>
